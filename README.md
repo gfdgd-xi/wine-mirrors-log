@@ -4,7 +4,7 @@ Wine运行器是一个能让Linux用户更加方便地运行Windows应用的程�
 
 [![star](https://gitee.com/gfdgd-xi/deep-wine-runner/badge/star.svg?theme=dark)](https://gitee.com/gfdgd-xi/deep-wine-runner/stargazers)  
 
-# Wine 更新日志列表（更新时间：2023年3月18日 12:26:48）  
-- [wine-staging-8.4.md](wine-staging-8.4.md) 或 [wine-staging-8.4.md.txt](wine-staging-8.4.md.txt)  
+# Wine 更新日志列表（更新时间：2023年3月18日 12:31:42）  
+- [wine-staging-8.4.md](wine-staging-8.4.md) 或 [wine-staging-8.4.txt](wine-staging-8.4.txt)  
 
 # ©2020~Now gfdgd xi、为什么您不喜欢熊出没和阿布呢

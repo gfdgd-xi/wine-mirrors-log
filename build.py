@@ -10,7 +10,7 @@ for i in os.listdir(programPath):
         print(f"添加 {i}")
         if os.path.exists(f"{programPath}/{os.path.splitext(i)[0]}.txt"):
             print("检测到", f"{programPath}/{os.path.splitext(i)[0]}.txt")
-            txt = f"{os.path.basename(i)}.txt"
+            txt = f"{os.path.splitext(i)[0]}.txt"
         else:
             txt = i
         lists.append([i, txt])
@@ -27,7 +27,7 @@ for i in lists:
     if i[0] == i[1]:
         showString += f"- [{os.path.basename(i[0])}]({os.path.basename(i[0])})  \n"
         continue
-    showString += f"- [{os.path.basename(i[0])}]({os.path.basename(i[0])}) 或 [{os.path.basename(i[1])}]({os.path.basename(i[1])})  \n"
+    showString += f"- [{i[0]}]({i[0]}) 或 [{i[1]}]({i[1]})  \n"
 showString += "\n# ©2020~Now gfdgd xi、为什么您不喜欢熊出没和阿布呢"
 print("生成的 markdown:\n" + showString)
 with open(f"{programPath}/README.md", "w") as file:
