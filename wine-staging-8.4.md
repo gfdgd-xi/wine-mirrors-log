@@ -1,3 +1,12 @@
+# 简述
+Wine 8.4 已发布，用于在 Linux 和其他平台下运行 Windows 游戏和应用程序。Wine 8.4 具有重要意义，因为它是发布最初始的 Wayland 图形驱动程序代码的版本。
+
+目前 Wine 8.4 中 “winewayland.drv” 的状态尚未为最终用户和游戏玩家准备好，仍处于早期阶段，正在进行开发。距离在原生 Wayland 支持之外再补充 (X) Wayland 支持，还需要很长一段时间，可能在 2024 年初发布的 Wine 9.0 稳定版能看到。
+
+Wine 8.4 还对 IME 支持代码进行了清理、测试修复以及总共 51 个错误修复。单个双周开发版本的 50 多个错误修复是相当多的。这些修复会影响一系列游戏、应用程序和其他核心 Wine 问题。 
+
+# 完整
+
 The Wine development release 8.4 is now available.  
   
 What's new in this release:  
